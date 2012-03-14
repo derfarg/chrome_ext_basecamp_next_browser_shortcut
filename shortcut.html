@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    function open_basecamp(url_to_basecamp){
+        window.open("http://" + url_to_basecamp + ".basecamp.com");
+    }
+    var basecamp_url = localStorage["basecamp_next_url"];
+    if(!basecamp_url){
+        window.open("options.html");
+    } else {
+        open_basecamp(basecamp_url);
+    }
+</script>
