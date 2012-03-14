@@ -1,7 +1,7 @@
 {
-    "name": "Basecamp Browser Shortcut",
-    "version": "0.0.1",
-    "description": "This app is only a shortcut to your basecamp account.",
+    "name": "Basecamp Next Browser Shortcut",
+    "version": "0.0.2",
+    "description": "This app is only a shortcut to your basecamp next account.",
     "options_page": "options.html",
     "icons": {
         "16": "icon16.png", 
@@ -10,7 +10,7 @@
     },
     "browser_action": {
         "default_icon": "icon48.png",
-        "defaul_title": "Basecamp Browser Shortcut",
+        "defaul_title": "Basecamp Next Browser Shortcut",
         "popup": "shortcut.html"
     } 
 }
